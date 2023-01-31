@@ -1,0 +1,27 @@
+.main{
+    border: 1px solid black;
+    height: 100px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+     margin-top: 50px;
+    margin-bottom: 50px;
+    align-items:center;
+    margin-left: 400px;
+    
+}
+
+button{
+    background-color: rgb(197, 190, 91);
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius:6px;
+}
+input{
+    height: 24px;
+}
+button:hover{
+    background-color: bisque;
+}

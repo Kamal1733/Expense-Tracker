@@ -4,8 +4,6 @@ import "./Expenseitem.css";
 import Card from '../UI/Card';
 
 function ExpenseItem(props) {
-
-
   
   return (
 
@@ -17,8 +15,12 @@ function ExpenseItem(props) {
         {/* <div  className="expense-item__description  expense-item"> */}
         <h2>{props.title}</h2>
       </div>
+      <div>
+
       <div className="expense-item__price">{props.amount}</div>
-      <button>CHANGE</button>
+       
+      </div>
+      
       {/* </div> */}
     </Card>
   );

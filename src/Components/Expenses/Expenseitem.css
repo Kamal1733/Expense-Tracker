@@ -3,10 +3,11 @@
     justify-content: space-between;
     align-items: center;
     border: 1px solid red;
-     
+    width: 80%;
     background-color: antiquewhite;
     align-self: center;
 
+    margin-left: 90px;
 }
 .exp{
     display: flex;
@@ -22,5 +23,5 @@
     background-color: lightsteelblue;
 }
 body{
-    background-color: mediumaquamarine;
+    background-color: rgb(80, 88, 151);
 }
